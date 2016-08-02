@@ -2,7 +2,7 @@
 body {
   background:#F6F6F6;
   /*Set the page's font-size to 18px and set the line height to 1.5*/
-  font-size: 18px;
+  font-size: 40px;
   line-height: 1.5;
   /*Make the paragraph text the font "Georgia" and use a font stack. (Google "Georgia font stack css.")*/
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -19,6 +19,9 @@ body {
   margin-right: 1cm;
 }
 
+h1 {
+  font-size: 100px;
+}
 /*Float the Via Dynasty image to the right and give it a little margin on the left*/
 img {
   float: right;
