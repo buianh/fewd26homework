@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+article{
+  width: 960px;
+}
+header {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  float: left;
+}
+
+div {
+  float: right;
+  width: 560px;
+}
+
+.nav1 {
+  border: 2px solid grey;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  width:100px;
+}
+.nav2 {
+  border: 2px solid grey;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  width:100px;
+}
+.nav3 {
+  border: 2px solid grey;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  width:100px;
+}
+.nav4 {
+  border: 2px solid grey;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  width:100px;
+}
+
+.nav5{
+  border: 2px solid grey;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  clear: both;
+  width: 960px;
+}
+.nav6 {
+  border: 2px solid grey;
+  margin: 0px 5px 30px 20px;
+  padding: 20px;
+  float: left;
+  width: 10%;
+}
+
+.nav7 {
+  border: 2px solid grey;
+  margin: 0px 5px 30px 20px;
+  padding: 20px;
+  width: 70%;
+  float: left;
+}
+
+.nav8 {
+  border: 2px solid grey;
+  margin: 0px 0px 30px 20px;
+  padding: 20px 0px 20px 20px;
+  float: left;
+  width: 10%;
+}
+
+footer {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+  clear: both;
+  width: 960px;
+}
