@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+}
+
+.nav1 {
+  border: 2px solid grey;
+  margin: 20px 20px 40px 20px;
+  padding: 20px;
+  float: left;
+  width: 70%;
+}
+
+.nav2 {
+  border: 2px solid grey;
+  margin: 20px 20px 40px 20px;
+  padding: 20px;
+  float: right;
+  width: 20%;
+}
+
+.nav3 {
+  border: 2px solid grey;
+  margin: 0px 5px 30px 20px;
+  padding: 20px;
+  float: left;
+  width: 10%;
+}
+
+.nav4 {
+  border: 2px solid grey;
+  margin: 0px 5px 30px 20px;
+  padding: 20px;
+  width: 70%;
+  float: left;
+}
+
+.nav5 {
+  border: 2px solid grey;
+  margin: 0px 5px 30px 20px;
+  padding: 20px 0px 20px 20px;
+  float: left;
+  width: 10%;
+}
+
+footer {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+  clear: both;
+}
