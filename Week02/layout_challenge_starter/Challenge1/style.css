@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+}
+
+.nav1 {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+  float: left;
+  width: 70%;
+}
+
+.nav2 {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+  float: right;
+  width: 20%;
+}
+
+footer {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+  clear: both;
+}
