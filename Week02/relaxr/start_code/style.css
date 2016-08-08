@@ -1,0 +1,93 @@
+<!-- Copy from solution the part done in class>
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.pageIntro {
+  height: 700px;
+  background: url(../images/header_bg.jpg) top center #131e27;
+  background-size: cover;
+  padding-top: 32px;
+}
+
+.pageIntro .logo {
+  color: #fff;
+}
+.tagline {
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 120px 0 90px;
+  font-weight: 600;
+}
+.btn {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.btn-cta {
+  background: #f9e42e;
+  color: #033048;
+}
+
+<!--Complete the rest
+"Benefits" - Semibold, 20px
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+"• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf
+• Does all your work for you with our revolutionary AI technology" - Light, 13px
+
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+"- Amanda, Intuit " - semibold, 18px
+
+"Sign Up Now!" - extra bold, 12px, 5px border radius
+
+Relaxr - extra bold, 24px
+"Copyright 2015. Relaxr." - 9px, semibold-->
+
+.benefits .container h1{
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+}
