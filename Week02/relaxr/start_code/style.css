@@ -70,7 +70,7 @@ a {
   color: #033048;
 }
 
-<!--Complete the rest
+/* Complete the rest
 "Benefits" - Semibold, 20px
 "The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
 "• Schedule meetings for you
@@ -78,21 +78,54 @@ a {
 • Responds to emails on your behalf
 • Does all your work for you with our revolutionary AI technology" - Light, 13px
 
-"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
-"- Amanda, Intuit " - semibold, 18px
 
 "Sign Up Now!" - extra bold, 12px, 5px border radius
 
 Relaxr - extra bold, 24px
-"Copyright 2015. Relaxr." - 9px, semibold-->
+"Copyright 2015. Relaxr." - 9px, semibold */
 
-.benefits .container h1{
-  color: white;
+.benefits .container h1 {
+  color: red;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 24px;
 }
 
-.ctaBox .btn .btn-signup{
+.ctaBox .btn .btn-signup {
   background: #f9e42e;
   color: #033048;
+ } 
+
+ .testimonial {
+  background: url(../images/testimonial_bg.jpg) top center #071324;
+  width: 100%;
+  color: white;
+ }
+
+.container blockquote {
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
+}
+
+.container .author {
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+
+}
+.ctaBox {
+background: #f9e42e;
+padding: 30px;
+text-align: center;
+}
+
+.btn-signup {
+  color: white;
+  background: #033048;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 40px 20px 450px;
+
 }
