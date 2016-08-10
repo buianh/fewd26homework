@@ -4,6 +4,7 @@
 
 .outer {
   width: 960px;
+  margin: 0 auto;
 }
 header {
   margin: 20px 70px 20px 0px;
