@@ -92,9 +92,9 @@ overflow: hidden;
 }
 .header2 {
   float: left;
-  font-size: 20px;
+  font-size: 23px;
   color: grey;
-  padding: 30px 0px 0px 10px;
+  padding: 8px 0px 0px 10px;
 }
 .satreMainNav {
   clear: both;
@@ -112,17 +112,42 @@ article h1 {
 .satrePrimary h1{
   color: black;
 }
-
-.satreSecondary li{
-  color: red;
+.satrePrimary h3:first-letter{
+  float: left;
+  font-size: 6em;
+  line-height: 1;
+  color: #DDD;
+  margin: -0.1em .1em 0 0em;
 }
+
+ span{
+  color: red;
+  float: right;
+  font-size: 18px;
+  margin: 20px;
+  padding: 0;
+  font-weight: 500;
+ }
+
+.satreSecondary li a{
+  color: red;
+  text-decoration:none;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+}
+
 
 .satreSecondary h1{
   font-size: 30px;
   font-weight: thin;
 }
 .satreSecondary h3{
-  font-size: 20px;
+  font-size: 5px;
+}
+
+.satreSecondary img{
+  text-align: center;
+  display: block;
 }
 .sartreColumnContainer {
   margin: 30px 0px 0px 0px;
@@ -133,13 +158,23 @@ article h1 {
   font-weight: 300;
 }
  
+
+
+ hr{
+  margin: 50px 0px 20px 0px;
+  width: 100%;
+
+ }
+
+
+
 /*footer*/
 footer li a{
  color: red;
  float: left;
- margin: 0 auto;
- padding: 0;
- border-right: 1px solid black;
+ margin: 2px 0px 2px 0px;
+  padding: 5px;
+ border-right: 0.5px solid black;
 
 }
 
@@ -151,7 +186,11 @@ footer ul{
   padding: 0;
 }
 
+
+
 .copyright{
   clear: both;
   color: grey;
+  margin: 20px 0px
+  font-size: 15px;
 }
