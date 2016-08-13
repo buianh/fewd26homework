@@ -1,0 +1,157 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+
+
+/*Column and Containers*/
+
+.outerWrapper{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.satreColumnContainer {
+	overflow: hidden;
+	width:100%;
+}
+
+
+.satrePrimary{
+width: 700px;
+float: left;
+overflow: hidden;
+}
+
+.satreSecondary{
+width: 220px;
+float: right;
+overflow: hidden;
+}
+
+
+footer{
+  clear: both;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+body{
+  color: grey;
+  font-family:'Lato', sans-serif;
+}
+
+/*Header*/
+.satreMainNav li{
+background: black;
+color: white;
+margin:0;
+padding:0;
+float: left;
+display: inline-block;
+overflow: hidden;
+}
+
+.satreMainNav ul{
+margin:0;
+padding:0;
+overflow: hidden;
+}
+
+.satreMainNav li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px;
+  display: block;
+  border-right: 1px solid white;
+}
+
+.satreMainNav li:last-child a {
+  border-right: none;
+}
+
+.header1{
+  float: left;
+  font-size: 30px;
+  color: red;
+}
+.header2 {
+  float: left;
+  font-size: 20px;
+  color: grey;
+  padding: 30px 0px 0px 10px;
+}
+.satreMainNav {
+  clear: both;
+}
+
+/*Main Body*/
+article header {
+  font-size: 20px;
+  font-weight: thin;
+}
+
+article h1 {
+  font-weight: 600;
+}
+.satrePrimary h1{
+  color: black;
+}
+
+.satreSecondary li{
+  color: red;
+}
+
+.satreSecondary h1{
+  font-size: 30px;
+  font-weight: thin;
+}
+.satreSecondary h3{
+  font-size: 20px;
+}
+.sartreColumnContainer {
+  margin: 30px 0px 0px 0px;
+}
+
+.sartreColumnContainer h3{
+  font-size: 20px;
+  font-weight: 300;
+}
+ 
+/*footer*/
+footer li a{
+ color: red;
+ float: left;
+ margin: 0 auto;
+ padding: 0;
+ border-right: 1px solid black;
+
+}
+
+footer li:last-child a{
+  border-right: none;
+}
+
+footer ul{
+  padding: 0;
+}
+
+.copyright{
+  clear: both;
+  color: grey;
+}
