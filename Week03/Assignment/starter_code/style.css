@@ -155,8 +155,46 @@ footer{
 	clear: both;
 	width: 100%;
 }
+
+.footer1{
+	background: #f9e42e;
+	height: 100px;
+	margin: 0;
+}
+.myButton {
+	background: #033048;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.footer1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+}
 footer h1 {
 	color: #f9e42e;
 	font-size: 48px;
 	font-weight: 800;
+	margin: 0;
+}
+
+.footer2{
+	background: black;
+}
+
+.footer2 ul li{
+	list-style: none;
+	float: left;
+	overflow: hidden;
+}
+
+.footer ul{
+	margin: 0px 0px 50px 350px;
+}
+.copyright{
+	clear: both;
+	color: white;
+	margin: 0px 350px 50px 350px;
 }
