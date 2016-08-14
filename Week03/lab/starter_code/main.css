@@ -191,6 +191,6 @@ footer ul{
 .copyright{
   clear: both;
   color: grey;
-  margin: 20px 0px
+  margin: 20px 0;
   font-size: 15px;
 }

@@ -1,0 +1,162 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+/*Header*/
+body{
+	background: #f0efef;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+header {
+	background: #033048;
+	overflow: hidden;
+	height: 100px;
+	padding: 0 auto;
+	width: 100%;
+}
+
+header h1 {
+	color: white;
+	font-size: 48px;
+	font-weight: 800;
+	float: left;
+	margin: 10px 0px 30px 30px;
+}
+
+header ul{
+	float:right;
+	padding: 40px;
+	font-weight: 50;
+	margin: 0 auto;
+}
+
+header ul li{
+	float: left;
+	list-style: none;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: #f9e42e;
+	padding: 20px;
+	font-size: 20px;
+}
+/*Main*/
+
+.middle{
+	width: 1000px;
+}
+.middle p{
+	font-size: 24px;
+	color: #606161;
+}
+main{
+	width: 700px;
+	margin: 50px 30px 20px 0;
+	padding: 20px;
+	float: left;
+}
+
+main h1{
+	font-size: 40px;
+	font-weight: 600;
+}
+
+main h1 a{
+	text-decoration: none;
+	color: #033048;
+}
+main img{
+	width: 500px;
+}
+
+main span {
+	font-size: 24px;
+	font-weight: 600;
+	float: right;
+}
+
+main span a {
+	text-decoration: none;
+	color: #033048;
+}
+
+hr {
+	margin: 70px 0;
+	width: 100%;
+}
+/*Aside*/
+
+aside {
+	float: right;
+	margin: 75px 0px 20px 0px;
+	width: 240px;
+}
+
+aside h1{
+	font-size: 32px;
+	font-weight: 800;
+	color: #033048;
+}
+
+aside ul{
+	font-size: 24px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+aside img{
+	margin: 50px 0;
+}
+aside span {
+	font-size: 24px;
+	font-weight: 600;
+	float: right;
+}
+
+
+aside span a {
+	text-decoration: none;
+	color: #033048;
+	margin: 70px 40px;
+}
+
+aside ul li{
+	list-style: none;
+}
+
+aside ul li a{
+	text-decoration: none;
+	color: #033048;
+}
+
+aside p {
+	font-size: 22px;
+	font-weight: 300;
+}
+/*Footer*/
+footer{
+	height: 300px;
+	clear: both;
+	width: 100%;
+}
+footer h1 {
+	color: #f9e42e;
+	font-size: 48px;
+	font-weight: 800;
+}
