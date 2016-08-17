@@ -64,6 +64,14 @@ header ul li a{
 	font-size: 24px;
 	color: #606161;
 }
+
+.middle p::first-letter {
+	font-size: 100px;
+	font-weight: 600;
+	line-height: 1;
+	margin: -0.1em .1em 0 0em;
+	float: left;
+}
 main{
 	width: 700px;
 	margin: 50px 30px 20px 0;
@@ -160,11 +168,13 @@ footer{
 	background: #f9e42e;
 	height: 100px;
 	margin: 0;
+	padding: 40px 100px 20px 0px;
 }
 .myButton {
 	background: #033048;
-	margin: 0 auto;
-	padding: 15px;
+	margin: 30px 100px 30px 500px;
+	padding: 10px;
+	width: 200px;
 }
 
 .footer1 a{
@@ -177,11 +187,13 @@ footer h1 {
 	color: #f9e42e;
 	font-size: 48px;
 	font-weight: 800;
-	margin: 0;
+	margin: 0px;
+	padding: 0px 100px 0px 500px;
 }
 
 .footer2{
 	background: black;
+	height: 300px;
 }
 
 .footer2 ul li{
@@ -193,8 +205,13 @@ footer h1 {
 .footer ul{
 	margin: 0px 0px 50px 350px;
 }
+
+.footer2 ul{
+	margin: 100px 200px 50px 520px;
+}
 .copyright{
 	clear: both;
 	color: white;
-	margin: 0px 350px 50px 350px;
+	margin: 150px 350px 50px 350px;
+	padding: 30px 50px 20px 150px;
 }
