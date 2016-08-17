@@ -65,7 +65,7 @@ header ul li a{
 	color: #606161;
 }
 
-.middle p::first-letter {
+.middle article p::first-letter {
 	font-size: 100px;
 	font-weight: 600;
 	line-height: 1;
