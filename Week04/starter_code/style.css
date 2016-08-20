@@ -16,9 +16,14 @@
 }
 
 body{
-	width: 960px;
+	background: #aaa;
+
 }
 
+.middle{
+	width: 960px;
+	margin: 0 auto;
+}
 /*Header*/
 header{
 	display: inline-block;
@@ -33,7 +38,10 @@ header{
 
 .upper h1{
 	color: yellow;
-	margin: 10px 50px ;
+	margin: 10px 50px 20px 10px;
+	font-size: 32px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 .upper nav{
@@ -41,8 +49,8 @@ header{
 }
 
 .upper li{
-	float: left;
-	padding: 20px;
+	display: inline-block;
+	padding: 0px 10px;
 	list-style: none;
 	font-size: 20px;
 }
@@ -53,34 +61,54 @@ header{
 	padding: 0;
 }
 
+.header1 ul{
+	margin: 15px 10px 10px 10px ;
+	font-size: 22px;
+}
+
+.header1 strong{
+	font-size: 25px;
+	font-family: '0swald';
+	line-height: 100%;
+}
+
 .header2{
 	float: right;
 	margin: 0;
 }
 .lower{
 	clear: both;
-	background: grey;
-	font-size: 24px;
+	background: lightgray;
+	font-size: 22px;
 	margin: 0 auto;
-	padding: 20px 30px 20px 300px;
+	text-align: center;
+	border-top: 2px solid yellow;
+	padding: 20px;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: bold;
 }
 
 strike{
-	color: rgb(211,211,211);
+	color: grey;
 }
 
-u.underline{
-	color: yellow;
+.lower ins{
+	border-bottom: 2px solid yellow;
+	text-decoration: none;
 }
+
 /*Main*/
 main {
 	height: 600px;
 }
 .picture{
 	background: url("images/coworking.jpg");
+	background-size: cover;
+	background-position: center;
 	width: 960px;
-	height: 300px;
-	margin: 0 auto;
+	height: 350px;
+	margin: 0;
 }
 
 .match{
