@@ -109,10 +109,12 @@ main {
 	width: 960px;
 	height: 350px;
 	margin: 0;
+	padding:60px;
+
 }
 
 .match{
-	margin: 50px 50px 20px 500px;
+	float:right;
 	padding: 20px;
 	background: rgba(255,255,255, 0.8);
 	width: 350px;
