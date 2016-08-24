@@ -17,16 +17,17 @@
 
 body{
 	background: #aaa;
+	font-family: 'Source Sans Pro', sans-serif;
 
 }
 
 .middle{
 	width: 960px;
 	margin: 0 auto;
+	background-color: white;
 }
 /*Header*/
 header{
-	display: inline-block;
 	overflow: hidden;
 	width: 960px;
 }
@@ -68,7 +69,7 @@ header{
 
 .header1 strong{
 	font-size: 25px;
-	font-family: '0swald';
+	font-family: 'Oswald';
 	line-height: 100%;
 }
 
@@ -101,6 +102,8 @@ strike{
 /*Main*/
 main {
 	height: 600px;
+	display:block;
+	overflow: hidden;
 }
 .picture{
 	background: url("images/coworking.jpg");
@@ -109,7 +112,7 @@ main {
 	width: 960px;
 	height: 350px;
 	margin: 0;
-	padding:60px;
+	padding: 20px;
 
 }
 
@@ -117,13 +120,15 @@ main {
 	float:right;
 	padding: 20px;
 	background: rgba(255,255,255, 0.8);
-	width: 350px;
+	width: 300px;
+	height: 300px;
 
 }
 
 .match h1{
 	color: blue;
-	margin: 0 auto;
+	margin: 0;
+	font-size: 24px
 }
 
 .match a{
@@ -134,55 +139,57 @@ main {
 
 .createbtn{
 	background: yellow;
-	width: 200px;
+}
+
+.btn {
+	width: 220px;
+	display:block;
 	margin: 0 auto;
 	padding: 20px;
-	
-}
-
-.createbtn a{
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
 	text-decoration: none;
 	font-weight: 600;
+	color: black;
 }
 
 
-.createbtn
 
 .content {
 	width: 960px;
+	background: white;
+	margin: 15px;
 }
 
-.content1, .content2, .content3{
+.content1{
 	width: 300px;
 	float: left;
-	padding: 30px
-}
-
-.content1, .content2 {
-	border-right: 1px solid grey;
-}
-
-.content h2{
-	color: blue;
-}
-
-.content2 .btn{
-	background: rgb(248,248,255);
-	width: 200px;
-	margin: 0 auto;
 	padding: 10px;
 }
 
-.content1 .btn, .content3 .btn{
-	background: rgb(248,248,255);
-	width: 200px;
-	margin: 0 auto;
-	padding: 10px 10px 10px 30px;
+.content1:last-child {
+	border-right: none;
 }
-.content .btn a{
+
+.content1 {
+	border-right: 1px solid grey;
+}
+
+.content h3{
+	color: blue;
+}
+
+.content .btn1{
+	background: lightgray;
+	text-align: center;
+}
+
+}
+.content a{
 	color: black;
 	text-decoration: none;
 	font-weight: 600;
+	text-align: center;
+	display: inline;
 }
 
 /*Footer*/
