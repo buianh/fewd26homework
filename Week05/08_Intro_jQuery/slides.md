@@ -2,41 +2,23 @@
 
 #FEWD - jQuery Intro
 
-###Tor N. Johnson
-
-Instructors current role.
-
 ---
-
 
 ##Agenda
 
-*	Intro To Programming Reivew
+*	Intro To Programming Review
 *	Intro To jQuery
 *	jQuery Basics
-	*	File Structure	
+	*	File Structure
 	*	Syntax
-*	Adding Interactivity	
+*	Adding Interactivity
 
 ---
 
-##Intro To Programming Review
-
-What are your questions?
-
----
-
-
-##Intro To jQuery
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##Color Scheme Switcher
 
 ---
-
-##What Is jQuery
-
-
-
----
-
 
 ##jQuery
 
@@ -44,18 +26,15 @@ jQuery __is__ JavaScript
 
 ---
 
-
-##jQuery
-
-jQuery is a cross-browser JavaScript library designed to simplify the client-side scripting of HTML.
-
----
-
 ##jQuery
 
 *	jquery.com - A JavaScript library that makes DOM manipulation simple.
 
-*	“Cross browser” - works the same in all* browsers. 
+* Written by John Resig in 2005.
+
+* jQuery's Motto: 'Write Less, Do More'
+
+*	"Cross browser" - works the same in all browsers.
 
 *	Allows:
 	*	Document traversal
@@ -64,99 +43,234 @@ jQuery is a cross-browser JavaScript library designed to simplify the client-sid
 	*	Animation
 	*	and more!
 
----
-
-##JS/jQuery Basics
-
----
-
-
-##Script Tags
-
----
+	---
 
 ##jQuery
 
-Adding jQuery to your website
+Makes working with JS easier:
 
-```&lt;script src="js/jquery-1.8.3.min.js">&lt;/script>``` - Adding the file.
+*	HTML / CSS manipulation
 
-```<&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">&lt;/script>``` - CDN
+* Event handling (click events)
 
----
+* Animations
 
-
-##Syntax
-
-__Syntax:__ Spelling and grammar rules of a programming language. 
-
-
-Note:
-Like with any language, there are formal rules around how to write it. This is the syntax.
-
+* AJAX
 
 ---
 
-##JavaScript Syntax - Punctuation
+##jQuery - Why Do We Use It?
 
-*	Semicolon
-*	Brackets
-*	Parentheses
-*	Quotation Marks
+Pure JavaScript:
 
----
+http://codepen.io/josephjbliss/pen/uqdCw
 
-##JavaScript Syntax - Comments
+jQuery:
 
-	//Single Line Comments
-
-	/* Multi line comments /*
+http://codepen.io/josephjbliss/pen/jLtfC
 
 ---
 
+##jQuery In Two Steps
+
+1) Use jQuery's powerful CSS selector to select which HTML elements you want to manipulate
+
+```
+$('#some-el')
+```
+
+2) Call jQuery methods on the above selector:
+
+```
+$('#some-el').css('background', 'blue');
+```
+
+---
 
 ##jQuery Syntax
 
-###$
-
-The Dollar Sign
+![jQuery Syntax](../../img/jquery-syntax.jpg)
 
 ---
 
-##jQuery Syntax - Selectors
+##jQuery CSS Selectors
 
+$() - the almighty selector!
 
-Selectors are just like CSS
+* CSS selectors query HTML for certain elements
 
-	$(".class").on('click');
+* Similar to document.getElementById()
 
-Note: document.getElementById('thingy').onclick = doSomething;
+* Use the same selectors you write in CSS!
 
-	function doSomething() {
-    	// make something happen here
+```
+$('div') // select all <div>'s
+$('h2') // select all <h2>'s
+$('p a') // select all <a>'s inside of all <p>'s
+$('p, a') // select all <p>'s and <a>'s
+```
+
+---
+
+##jQuery CSS Selectors - IDs and Classes
+
+Fetch ID's using the # (hashtag):
+
+```
+$('#someId')
+$('#someId a')
+```
+
+Fetch Classes using the . (period):
+
+```
+$('.someClass')
+$('.someClass a')
+```
+
+Using ```$('.someClass')``` returns ALL of the HTML elements with a class of ```.someClass```
+
+---
+
+##jQuery Methods - HTML Manipulation
+
+.html()
+
+Will return any HTML inside the selected element:
+
+```
+$('#someId').html()
+```
+
+.html('< h1 >a heading</ h1 >')
+
+Inserts and overwrites the HTML inside the selected element:
+
+```
+$('#someId').html('<h1>a heading</h1>')
+```
+
+---
+
+##jQuery Methods - HTML Manipulation
+
+.text()
+
+Returns any text inside the selected element
+
+```
+$('#someId').text()
+```
+
+.text('some string')
+
+Overwrites any text (or HTML!) inside the selected element
+
+```
+$('#someId').text('some text!')
+```
+
+---
+
+##Codealong
+
+http://codepen.io/nickgrace/pen/XKLOYa?editors=101
+
+---
+
+##jQuery Methods - HTML Manipulation
+
+Other helpful methods:
+
+.css();
+```
+$('#some-el').css('background', 'blue');
+```
+
+.toggleClass();
+```
+$("li").toggleClass("redForm");
+```
+
+.hide();
+```
+$('#answer1').hide();
+```
+
+.slideToggle();
+```
+$('#answer3').slideToggle();
+```
+
+---
+
+##jQuery Click Event - Named Functions
+
+JavaScript
+
+```
+	document.getElementById('someId').onclick = someFunction
+
+	function someFunction() {
+		// do something
 	}
+```
 
-In jQuery, this might look more like:
+jQuery
 
-	$('selector').on('click',doSomething);
+```
+	$('#someId').click(someFunction)
 
-	function doSomething() {
-		// make something happen here
-   	}
-   	
-   	
-Note: We will certainly be discussing this in more detail, but in general jQuery let’s us grab some element from the page ($('slector')), and do something with it ($('selector').click(doSomething);). In this case, we grabbed an element with the id thingy and used .click() to make a function run when the user clicks on #thingy.
-
----
-
-
-##jQuery Click Event
-
-###.on('click')
+	function someFunction() {
+		// do something
+	}
+```
 
 ---
 
+##jQuery Click Event - Anonymous Functions
 
+JavaScript:
+
+```
+	document.getElementById('someId').onclick = function() {
+		// do something
+	}
+```
+
+jQuery
+
+```
+	$('#someId').click(function() {
+		// do something
+	})
+```
+
+---
+
+##Codealong Part 2
+
+http://codepen.io/nickgrace/pen/XKLOYa?editors=101
+
+---
+
+##Using jQuery - $(document).ready()
+
+Best practice is to write jQuery using the $(document).ready() function:
+
+```
+	$(document).ready(function() {
+
+		// WRITE OTHER CODE HERE!!
+
+	})
+```
+
+* Tells jQuery to wait until HTML/CSS have loaded before executing any JavaScript
+
+* Only execute code once the document (DOM) is ready
+
+---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##jQuery Traffic Light
@@ -168,8 +282,29 @@ Note: We will certainly be discussing this in more detail, but in general jQuery
 
 ---
 
-
-
-##Adding Interactivity
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##FAQs
 
 ---
+
+##jQuery
+
+Adding jQuery to your website
+
+```
+<script src="js/jquery-1.8.3.min.js">&lt;/script>
+```
+
+```
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">&lt;/script>
+```
+
+---
+
+##jQuery
+
+Resources:
+
+http://api.jquery.com
+
+https://oscarotero.com/jquery/
