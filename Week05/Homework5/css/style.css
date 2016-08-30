@@ -132,6 +132,7 @@ a {
   font-size: 24px;
   line-height: 1.333;
   color: #606161;
+  margin-bottom: 20px;
 }
 .post p:first-of-type:first-letter {
   float: left;
@@ -192,6 +193,11 @@ a {
 .relaxr-category-sidebar p a {
   color: #043049;
   font-weight: 600;
+  margin: 20px;
+}
+
+#learnmoretext {
+  margin-top: 20px;
 }
 
 #bottom-cta {
