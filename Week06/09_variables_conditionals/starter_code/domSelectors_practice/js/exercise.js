@@ -110,7 +110,11 @@ $('#button3').click(question8);
  * Bonus: Try to do this with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"});
  */
 
+function question9(){
+	$("p").css({"color": "blue", "font-family": "Georgia"});
+}
 
+$('#button3').click(question9);
 
 
 
