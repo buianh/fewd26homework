@@ -1,24 +1,11 @@
 $(document).ready(function(){
 
 
-	$('.readmore').on("click", function(){
+	$('img').on("click", function(){
 		event.preventDefault();
-		$("#show-this-on-click").slideDown();
-		$(".readmore").hide();
-		$(".readless").show();
+		$('img').attr("width","100")
+		$('img').attr("height","100")
 	});
 
-		$('.readless').on("click", function(){
-		event.preventDefault();
-		$(".hide").hide();
-		$(".readmore").show();
-	});
-
-	$('.learnmore').on("click", function(){
-		event.preventDefault();
-		$(".learnmore").hide();
-		$("#learnmoretext").slideDown();
-
-	});
 
 });
