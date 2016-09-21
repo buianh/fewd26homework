@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+.outer {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  margin: 20px 70px 20px 0px;
+  padding: 20px;
+  width: 300px;
+  float: left;
+  background: red;
+  color: black;
+}
+
+
+.nav1 {
+  float: left;
+  margin: 20px 10px 20px 0px;
+  padding: 20px;
+  width:140px;
+  background: red;
+  color: black;
+}
+.nav2 {
+  float: left;
+  margin: 20px 10px 20px 0px;
+  padding: 20px;
+  width:140px;
+  background: red;
+  color: black;
+}
+.nav3 {
+  float: left;
+  margin: 20px 10px 20px 0px;
+  padding: 20px;
+  width:140px;
+  background: red;
+  color: black;
+}
+.nav4 {
+  float: left;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+  width:140px;
+  background: red;
+  color: black;
+}
+
+.nav5{
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+  clear: both;
+  width: 960px;
+  background: red;
+  color: black;
+}
+.nav6 {
+  margin: 0px 30px 30px 0px;
+  padding: 20px;
+  float: left;
+  width: 150px;
+  background: red;
+  color: black;
+}
+
+.nav7 {
+  margin: 0px 30px 30px 0px;
+  padding: 20px;
+  width: 600px;
+  float: left;
+  background: red;
+  color: black;
+}
+
+.nav8 {
+  margin: 0px 0px 30px 0px;
+  padding: 20px 0px 20px 0px;
+  float: left;
+  width: 150px;
+  background: red;
+  color: black;
+}
+
+footer {
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+  clear: both;
+  width: 960px;
+  background: red;
+  color: black;
+}
