@@ -178,10 +178,39 @@ a {
     border-right: none;
 }
 
+
 @media only screen and (max-width: 992px) {
     .block {
     border-right: none;
     margin-top: 20px;
+}
+
+.mobileHidden {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+    float: right;
+}
+
+.horizontal-nav li{
+    display: list-item;
+    text-align: center;
+
+}
+
+.navigation {
+    clear: both;
+    width: 680px;
+
+}
+
+.main-nav strong {
+    text-transform: none;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
 }
 
     }
