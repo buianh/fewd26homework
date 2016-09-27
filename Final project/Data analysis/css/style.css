@@ -58,7 +58,32 @@ header {
   font-weight: 800;
 }
 
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: red;
+  font-family: 'Merriweather', serif;
+}
+
+.intro {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-style: italic;
+  font-family: 'Oswald';
+}
 /*Body*/
+a {
+  margin-left: 20px;
+  font-size: 20px;
+  color: black;
+
+
+}
 img{
   width: 400px;
   height: 300px;
@@ -105,7 +130,29 @@ li {
   font-size: 20px;
 }
 
+.paper li a {
+text-decoration: none;
+font-size: 25px;
+ }
 
+@media only screen and (max-width: 768px) {
 
+  h1{
+    font-size: 30px;
+  }
 
+  h2{
+    font-size: 25px;
+  }
 
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-5px;
+    left:-5px;
+    width:600px;
+    height:400px;
+    display:block;
+    margin: 0 auto;
+}

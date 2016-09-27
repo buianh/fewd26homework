@@ -309,14 +309,63 @@ header nav {
 }
 
   header nav ul li {
-  padding: 10px
+  padding: 10px;
   width: 100%;
   display: block;
   margin: 0;
   border-bottom: 1px solid #ccc;
   text-align: center;
 }
-  
+
+  #hero {
+    height: auto;
+    padding: 30px 0 50px;
+  }
+  #hero h2 {
+    font-size: 28px;
+    margin: 40px 0 60px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  #benefits p, #benefits ul {
+    width: 82%;
+    margin: 0 auto 20px;
+    font-size: 20px;
+}
+
+blockquote {
+    font-size: 20px;
+    width: 90%;
+}
+
+#sidebar {
+  display: block;
+  width: 85%;
+}
+
+#sidebar h3 {
+    font-size: 24px;
+}
+
+#sidebar img {
+  display: none;
+}
+
+#sidebar ul li a, #sidebar p {
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+#sidebar ul {
+  margin-bottom: 5px;
+}
+
+/*Still need: make lines to the right, all text 
+in the middle;
+text in the header looks good */  
 }
 
 
