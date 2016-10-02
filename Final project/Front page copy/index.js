@@ -17,5 +17,11 @@ function carousel() {
 }
 
 
+$('.hamburger-box').on("click", function() {
+	$('.navigation').toggleClass('.mobile-hide')
+});
+
+
+
 
 });

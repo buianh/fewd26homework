@@ -47,7 +47,6 @@ Developer @GA in DC
 body {
   margin: 0 auto;
   background: lightgrey;
-  width: 960px;
 }
 
 /*Header*/
@@ -58,6 +57,26 @@ header {
   text-align: center;
   font-weight: 800;
 }
+
+.navigation li {
+  padding: 10px;
+}
+
+.navigation a {
+  text-transform: none;
+  color: white;
+  font-weight: 600;
+}
+
+ul li{
+  display: inline-block;
+  /*list-style-type: circle;*/
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+}
+
+
 
 /*Body*/
 img{
@@ -102,8 +121,8 @@ h2 {
 
 h3 {
   font-size: 22px;
-  margin-left: 20px;
   margin-top: 20px;
+  text-transform: none;
 }
 
 a {
@@ -114,16 +133,6 @@ a {
   padding: 20px;
 }
 
-ul li{
-  list-style-type: circle;
-  margin-left: 20px;
-}
-
-ol li{
-  margin: 5px;
-  margin-left: 50px;
-  list-style-type: disc;
-}
 
 li:last-child{
   margin-bottom: 20px;
@@ -131,6 +140,37 @@ li:last-child{
 
 li {
   font-size: 20px;
+}
+
+.content {
+  border-bottom: solid 3px black;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .lines { 
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: black;
+    color: white;
+    border-radius: 1px;
+    margin-top: 5px;
+    margin-right: 0;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+.hamburger-box{
+  width:40px;
+  float: right;
+  margin-bottom: 5px;
+}
+
+
 }
 
 
