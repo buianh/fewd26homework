@@ -1,11 +1,10 @@
 $(document).ready(function(){
 
 
-	$('img').on("click", function(){
-		event.preventDefault();
-		$('img').attr("width","100")
-		$('img').attr("height","100")
-	});
+	$('.hamburger-box').on("click", function() {
+	$('.navigation').toggleClass('mobile-hide');
+});
+
 
 
 });

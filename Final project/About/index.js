@@ -1,24 +1,8 @@
 $(document).ready(function(){
 
+$('.hamburger-box').on("click", function() {
+	$('.navigation').toggleClass('mobile-hide');
+});
 
-	$('.readmore').on("click", function(){
-		event.preventDefault();
-		$("#show-this-on-click").slideDown();
-		$(".readmore").hide();
-		$(".readless").show();
-	});
-
-		$('.readless').on("click", function(){
-		event.preventDefault();
-		$(".hide").hide();
-		$(".readmore").show();
-	});
-
-	$('.learnmore').on("click", function(){
-		event.preventDefault();
-		$(".learnmore").hide();
-		$("#learnmoretext").slideDown();
-
-	});
 
 });

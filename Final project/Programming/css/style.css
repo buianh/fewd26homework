@@ -134,6 +134,28 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
+  
+  .navigation {
+
+  float: left;
+  width: 100%;
+}
+
+.navigation ul {
+  margin: 0 auto;
+}
+
+.navigation li {
+  display: block;
+  padding: 0;
+}
+
+.navigation a {
+  color: black;
+  background: none;
+  font-weight: 500;
+}
+
   .lines { 
     display: block;
     width: 100%;
@@ -153,6 +175,7 @@ li {
   width:40px;
   float: right;
   margin-bottom: 5px;
+  margin-right: 15px;
 }
 
 
