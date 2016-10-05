@@ -18,7 +18,15 @@ function carousel() {
 
 
 $('.hamburger-box').on("click", function() {
-	$('.navigation').toggleClass('mobile-hide')
+	$('.navigation').toggleClass('mobile-hide');
+});
+
+$('.email-btn').on("click", function() {
+    $('.email-container-hide').toggleClass('email-container-show');
+});
+
+$('.close-btn').on("click", function() {
+    $('.close-after-click').hide;
 });
 
 

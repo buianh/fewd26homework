@@ -146,6 +146,14 @@ li {
   margin: 20px;
 }
 
+.last-row {
+  border-bottom: none;
+}
+
+/*main.container .row:last-child .content {
+  border-bottom: none;
+}*/
+
 @media only screen and (max-width: 768px) {
 
 .navigation {

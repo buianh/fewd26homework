@@ -159,12 +159,27 @@ li {
   clear: both;
 }
 
-.submit-btn {
-  margin: 20px;
+.email-btn {
   width: 200px;
   margin: 0 auto;
   margin-top: 20px;
 
+}
+
+.submit-btn {
+  width: 200px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.email-container-hide {
+  margin-top: 20px;
+  display: none;
+}
+
+.email-container-show {
+  display: block;
 }
 
 
